@@ -74,7 +74,7 @@ PRODUCT_PACKAGES += \
 
 # Doze mode
 PRODUCT_PACKAGES += \
-    OneplusDoze
+    OnePlusDoze
 
 # HotwordEnrollement app permissions
 PRODUCT_COPY_FILES += \
