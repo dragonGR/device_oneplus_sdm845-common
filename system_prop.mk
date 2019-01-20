@@ -86,7 +86,9 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.dbg.vt_avail_ovr=1 \
     persist.dbg.wfc_avail_ovr=1 \
     persist.radio.calls.on.ims=1 \
-    ro.telephony.default_network=22,22
+    ro.telephony.default_network=22,22 \
+    ril.ecclist="112,911,999,*911" \
+    ril.ecclist1="911,112,999,*911,991,994"
 
 # Touchscreen
 PRODUCT_PROPERTY_OVERRIDES += \
