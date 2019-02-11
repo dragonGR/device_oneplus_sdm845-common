@@ -56,8 +56,8 @@ TARGET_KERNEL_ARCH := arm64
 TARGET_KERNEL_SOURCE := kernel/oneplus/sdm845
 TARGET_KERNEL_CROSS_COMPILE_PREFIX := aarch64-linux-android-
 TARGET_KERNEL_CLANG_COMPILE := true
-TARGET_KERNEL_CLANG_VERSION := 8.0.7
-KBUILD_COMPILER_STRING := Android (5220042 based on r346389c) clang version 8.0.7
+TARGET_KERNEL_CLANG_VERSION := 8.0.8
+KBUILD_COMPILER_STRING := Android (5271481 based on r349610) clang version 8.0.8
 export KBUILD_COMPILER_STRING
 
 # Enable real time lockscreen charging current values
