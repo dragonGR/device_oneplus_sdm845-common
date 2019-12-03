@@ -206,5 +206,10 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/privapp-permissions-wfd.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-wfd.xml \
     $(LOCAL_PATH)/configs/privapp-permissions-oneplus.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-oneplus.xml
 
+# Google extra permissions and features
+PRODUCT_COPY_FILES += \
+     $(LOCAL_PATH)/prebuilt/common/etc/permissions/com.oneplus.software.xml:system/etc/permissions/com.oneplus.software.xml \
+     $(LOCAL_PATH)/prebuilt/common/etc/permissions/com.oneplus.software.overseas.xml:system/etc/permissions/com.oneplus.software.overseas.xml
+
 # setup dalvik vm configs
 $(call inherit-product, frameworks/native/build/phone-xhdpi-8192-dalvik-heap.mk)
