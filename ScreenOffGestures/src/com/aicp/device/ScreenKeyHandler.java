@@ -124,7 +124,7 @@ public class ScreenKeyHandler implements DeviceKeyHandler {
     private EventHandler mEventHandler;
     private WakeLock mGestureWakeLock;
     private Handler mHandler = new Handler();
-    private SettingsObserver mSettingsObserver;
+    //private SettingsObserver mSettingsObserver;
     private static boolean mButtonDisabled;
     private final NotificationManager mNoMan;
     private final AudioManager mAudioManager;
@@ -153,7 +153,7 @@ public class ScreenKeyHandler implements DeviceKeyHandler {
         }
     };
 
-    private class SettingsObserver extends ContentObserver {
+    /*private class SettingsObserver extends ContentObserver {
         SettingsObserver(Handler handler) {
             super(handler);
         }
@@ -175,7 +175,7 @@ public class ScreenKeyHandler implements DeviceKeyHandler {
                     mContext.getContentResolver(), Settings.System.PROXIMITY_ON_WAKE, 1,
                     UserHandle.USER_CURRENT) == 1;
         }
-    }
+    }*/
 
     private class MyTorchCallback extends CameraManager.TorchCallback {
         @Override
@@ -210,8 +210,8 @@ public class ScreenKeyHandler implements DeviceKeyHandler {
         mPowerManager = (PowerManager) mContext.getSystemService(Context.POWER_SERVICE);
         mGestureWakeLock = mPowerManager.newWakeLock(PowerManager.PARTIAL_WAKE_LOCK,
                 "GestureWakeLock");
-        mSettingsObserver = new SettingsObserver(mHandler);
-        mSettingsObserver.observe();
+        //mSettingsObserver = new SettingsObserver(mHandler);
+        //mSettingsObserver.observe();
         mNoMan = (NotificationManager) mContext.getSystemService(Context.NOTIFICATION_SERVICE);
         mAudioManager = (AudioManager) mContext.getSystemService(Context.AUDIO_SERVICE);
         mCameraManager = (CameraManager) mContext.getSystemService(Context.CAMERA_SERVICE);
