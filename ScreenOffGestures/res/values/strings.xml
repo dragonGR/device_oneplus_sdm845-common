@@ -37,31 +37,4 @@
     <string name="gesture_double_swipe_title">Double finger swipe down</string>
     <string name="gesture_double_tap_title">Double tap</string>
 
-     <!-- Notification slider -->
-    <string name="notification_slider">Notification slider</string>
-    <string name="action">Action</string>
-
-    <string name="top_position">Top position</string>
-    <string name="middle_position">Middle position</string>
-    <string name="bottom_position">Bottom position</string>
-    <string name="total_silence">Total silence</string>
-    <string name="alarms_only">Alarms only</string>
-    <string name="priority_only">Priority only</string>
-    <string name="none">All notifications</string>
-    <string name="vibrate">Vibrate</string>
-    <string name="ring">Ring</string>
-
-    <string name="slider_mode_off">Off</string>
-    <string name="slider_mode_vibrate">Vibrate</string>
-    <string name="slider_mode_silent">Silent</string>
-    <string name="slider_mode_priority">Priority only</string>
-    <string name="slider_mode_alarm">Alarms only</string>
-    <string name="slider_mode_dnd">Total silence</string>
-    <string name="slider_mode_title_top">Top position</string>
-    <string name="slider_mode_title_center">Center position</string>
-    <string name="slider_mode_title_bottom">Bottom position</string>
-
-    <string name="swap_back_recents_title">Swap buttons</string>
-    <string name="swap_back_recents_summary">Swap the order of recents and back buttons</string>
-
 </resources>
