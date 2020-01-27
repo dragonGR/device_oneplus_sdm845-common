@@ -37,8 +37,8 @@ import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 
-import com.android.internal.util.gzosp.AppHelper;
-import com.android.internal.util.gzosp.ActionConstants;
+import com.android.internal.util.aicp.AppHelper;
+import com.android.internal.util.aicp.ActionConstants;
 import com.android.internal.util.aicp.DeviceUtils;
 import com.android.internal.util.aicp.DeviceUtils.FilteredDeviceFeaturesArray;
 
