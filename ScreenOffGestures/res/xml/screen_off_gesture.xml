@@ -21,7 +21,8 @@
             android:key="enable_gestures"
             android:title="@string/enable_gestures_title"
             android:persistent="false"
-            android:summary="@string/enable_gestures_summary" />
+            android:summary="@string/enable_gestures_summary"
+            android:defaultValue="false" />
 
         <PreferenceCategory
             android:key="gestures"
